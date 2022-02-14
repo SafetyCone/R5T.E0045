@@ -1,0 +1,2 @@
+ExternAlias.Library02 - Provides a System.StringExtensions class in order to arrange a name type name collision and test out the C# "extern alias" feature.
+

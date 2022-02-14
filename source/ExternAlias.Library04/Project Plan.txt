@@ -1,0 +1,2 @@
+ExternAlias.Library04 - An intermediate dependency allowing a dependency to explore the C# "extern alias" feature.
+

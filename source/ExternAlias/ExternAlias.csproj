@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExternAlias.Library01\ExternAlias.Library01.csproj">
+      <Aliases>Library01</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="..\ExternAlias.Library03\ExternAlias.Library03.csproj" />
+    <ProjectReference Include="..\ExternAlias.Library04\ExternAlias.Library04.csproj" />
+  </ItemGroup>
+
+</Project>
