@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\ExternAlias.Library01\ExternAlias.Library01.csproj">
       <Aliases>Library01</Aliases>
@@ -12,5 +12,4 @@
     <ProjectReference Include="..\ExternAlias.Library03\ExternAlias.Library03.csproj" />
     <ProjectReference Include="..\ExternAlias.Library04\ExternAlias.Library04.csproj" />
   </ItemGroup>
-
 </Project>
