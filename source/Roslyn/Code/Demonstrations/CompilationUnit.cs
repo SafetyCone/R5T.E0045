@@ -20,14 +20,14 @@ namespace Roslyn.Demonstrations
         {
             var codeFilePath = @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.E0045\source\Roslyn\Code\Demonstrations\CompilationUnit.cs";
 
-            var compilationUnit = CompilationUnitSyntaxHelper.LoadFileSynchronous(codeFilePath);
+            var compilationUnit = CompilationUnitSyntaxHelper.LoadFile_Synchronous(codeFilePath);
 
             var parentOfCompilationUnit = compilationUnit.Parent;
         }
 
         private static void NewCompilationUnitParentIsNull()
         {
-            var compilationUnit = CompilationUnitSyntaxHelper.New();
+            var compilationUnit = CompilationUnitSyntaxHelper.CreateNew();
 
             var parentOfCompilationUnit = compilationUnit.Parent;
 

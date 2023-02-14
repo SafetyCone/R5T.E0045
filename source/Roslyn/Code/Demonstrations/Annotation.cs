@@ -33,7 +33,7 @@ namespace Roslyn.Demonstrations
 
             modified = modified.WithAdditionalAnnotations(annotation02);
 
-            var annotations = modified.GetAnnotations().Now();
+            var annotations = modified.GetAnnotations().Now_OLD();
 
             var annotationCount = annotations.Length; // Length is 2, meaning that WithAdditionalAnnotations added the second annotation, instead of replacing annotations.
         }

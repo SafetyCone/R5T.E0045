@@ -15,7 +15,7 @@ namespace Roslyn.V001
         [TestMethod]
         public void ParentOfNewCompilationUnitIsNull()
         {
-            var newCompilationUnit = CompilationUnitSyntaxHelper.New();
+            var newCompilationUnit = CompilationUnitSyntaxHelper.CreateNew();
 
             Instances.Assertion.IsNull(newCompilationUnit.Parent);
         }
